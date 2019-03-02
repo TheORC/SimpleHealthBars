@@ -1,0 +1,17 @@
+name: SimpleHealthBars
+main: me.gamesareme.orc.SimpleHealthBars
+version: 1.13
+description: Lets you display healthbars for mobs
+authors: [AnotherORC]
+website: https://github.com/TheORC/SimpleHealthBars
+commands:
+   simplehealthbars:
+      aliases: [shb]
+      description: Adminstrative Command (reloading)
+      usage: /<command>
+      permission: simplehealthbar.command
+      permission-message: You don't have the permission <permission>
+permissions:
+   simplehealthbars.command:
+      description: Gives permission to the simplehealthbars command
+      default: op
